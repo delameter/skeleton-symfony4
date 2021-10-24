@@ -24,6 +24,7 @@
                 <b>Июл 2020</b> &mdash; <i>настоящее время</i>
             </td>
         </tr>
+        <tr height="10px"><td colspan="2"></td></tr>
         <tr>
             <td colspan="2" align="center">                
               <img src="screenshot.jpg" alt="{service screenshot}"/>
@@ -58,6 +59,7 @@
                 <b>Июл 2020</b> &mdash; <i>настоящее время</i>
             </td>
         </tr>
+        <tr height="10px"><td colspan="2"></td></tr>
         <tr>
             <td colspan="2" align="center">                
               <img src="screenshot.jpg" alt="{service screenshot}"/>
