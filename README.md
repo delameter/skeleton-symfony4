@@ -11,8 +11,8 @@
         </tr>
         <tr>
             <td>
-                PHP 7.3.4  <br>
-                Symfony 4.4
+                <code>PHP&nbsp;7.3.4</code>  
+                <code>Symfony&nbsp;4.4</code>  
             </td>
             <td>       
                 <b>Июл 2020</b> &mdash; <i>настоящее время</i>
