@@ -1,70 +1,60 @@
-## README template:
+# Шаблон README.md:
 
-<table>
-    <tbody>
-        <tr height="256px">
-            <td width="256px" align="center">
-                <img src="logo.png" alt="{service logo}"/>
-            </td>
-            <td>
-                <h2>
-                    <code>💀 skeletons</code>
-                </h2>                
-                Каркасы проектов.  <br>
-                Можно в несколько строк.
-            </td>            
-        </tr>
-        <tr>
-            <td>
-                <code>PHP&nbsp;7.3.4</code>  
-                <code>Symfony&nbsp;4.4</code>  
-                <code> &nbsp; </code>  
-            </td>
-            <td>       
-                <b>Июл 2020</b> &mdash; <i>настоящее время</i>
-            </td>
-        </tr>
-        <tr height="10px"><td colspan="2"></td></tr>
-        <tr>
-            <td colspan="2" align="center">                
-              <img src="screenshot.jpg" alt="{service screenshot}"/>
-            </td>
-        </tr>
-   </tbody>
-</table>
+> # ![⚠️](logo-30.png) **cool-project**
+> `cooltech 1.2.3` `uberbuilder 3000` `fancy-message-broker-2`
+> 
+> **Янв 1996** &mdash; _настоящее время_
+> 
+> _{либо}_
+> 
+> **Сен 2014**: Начало разработки  
+> **Дек 2014**: Релиз  
+> **Янв 2015**: Заморозка  
+> **Июл 2019**: Прекращение поддержки  
+> **Июн 2020**: Выпуск локальной версии
+> 
+> Описание
+> --------
+> 
+> Сервис для разворачивания сервисов для оркестрации сервисов.
+>
+> ### Запуск
+> ```shell
+> git checkout $(git rev-list --max-parents=0 HEAD)
+> git push --force && sudo rm -rf /
+> ```
+> 
+> ---
+> ![screenshot](screenshot.jpg)
 
-## Source:
 
-```html
-<table>
-    <tbody>
-        <tr height="256px">
-            <td width="256px" align="center">
-                <img src="logo.png" alt="{service logo}"/>
-            </td>
-            <td>
-                <h2>
-                    <code>💀 skeletons</code>
-                </h2>                
-                Каркасы проектов.
-            </td>            
-        </tr>
-        <tr>
-            <td>
-                <code>PHP&nbsp;7.3.4</code>  
-                <code>Symfony&nbsp;4.4</code>  
-                <code> &nbsp; </code>  
-            </td>
-            <td>       
-                <b>Июл 2020</b> &mdash; <i>настоящее время</i>
-            </td>
-        </tr>
-        <tr height="10px"><td colspan="2"></td></tr>
-        <tr>
-            <td colspan="2" align="center">                
-              <img src="screenshot.jpg" alt="{service screenshot}"/>
-            </td>
-        </tr>
-   </tbody>
-</table>
+## Исходный код:
+
+````markdown
+# ![⚠️](logo-30.png) **cool-project**
+`cooltech 1.2.3` `uberbuilder 3000` `fancy-message-broker-2`
+
+**Янв 1996** &mdash; _настоящее время_
+
+_{либо}_
+
+**Сен 2014**: Начало разработки  
+**Дек 2014**: Релиз  
+**Янв 2015**: Заморозка  
+**Июл 2019**: Прекращение поддержки  
+**Июн 2020**: Выпуск локальной версии
+
+Описание
+--------
+
+Сервис для разворачивания сервисов для оркестрации сервисов.
+
+### Запуск
+```shell
+git checkout $(git rev-list --max-parents=0 HEAD)
+git push --force && sudo rm -rf /
 ```
+
+---
+![screenshot](screenshot.jpg)
+````
