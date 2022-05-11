@@ -1,60 +1,40 @@
-# Шаблон README.md:
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/50381946/167810957-14b78013-00cf-436e-b535-d2b89f881c44.png">
+  <br>
+  <code>
+    *PROJECT_NAME
+  </code>
+  <br>
+</h1>
 
-> # ![⚠️](logo-30.png) **cool-project**
-> `cooltech 1.2.3` `uberbuilder 3000` `fancy-message-broker-2`
-> 
-> **Янв 1996** &mdash; _настоящее время_
-> 
-> _{либо}_
-> 
-> **Сен 2014**: Начало разработки  
-> **Дек 2014**: Релиз  
-> **Янв 2015**: Заморозка  
-> **Июл 2019**: Прекращение поддержки  
-> **Июн 2020**: Выпуск локальной версии
-> 
-> Описание
-> --------
-> 
-> Сервис для разворачивания сервисов для оркестрации сервисов.
->
-> ### Запуск
-> ```shell
-> git checkout $(git rev-list --max-parents=0 HEAD)
-> git push --force && sudo rm -rf /
-> ```
-> 
-> ---
-> ![screenshot](screenshot.jpg)
+With GitHub Free for personal accounts, you can work with unlimited collaborators on unlimited public repositories with a full feature set, and on unlimited private repositories with a limited feature set.
 
+With GitHub Free, your personal account includes:
 
-## Исходный код:
+- GitHub Community Support
+- Dependabot alerts
+- Two-factor authentication enforcement
+- 2,000 GitHub Actions minutes
+- 500MB GitHub Packages storage
 
-````markdown
-# ![⚠️](logo-30.png) **cool-project**
-`cooltech 1.2.3` `uberbuilder 3000` `fancy-message-broker-2`
+## Motivation
 
-**Янв 1996** &mdash; _настоящее время_
+![image](https://user-images.githubusercontent.com/50381946/167809657-d816732f-a367-4cb3-8969-dce07f90f9e5.png)
 
-_{либо}_
+## Installation
 
-**Сен 2014**: Начало разработки  
-**Дек 2014**: Релиз  
-**Янв 2015**: Заморозка  
-**Июл 2019**: Прекращение поддержки  
-**Июн 2020**: Выпуск локальной версии
+    pip install *PROJECT_NAME
 
-Описание
---------
+## Usage
 
-Сервис для разворачивания сервисов для оркестрации сервисов.
+    *PROJECT_NAME
 
-### Запуск
-```shell
-git checkout $(git rev-list --max-parents=0 HEAD)
-git push --force && sudo rm -rf /
-```
+Stack Overflow helps people find the answers they need, when they need them. We're best known for our public Q&A platform that over 100 million people visit every month to ask questions, learn, and share technical knowledge.
 
----
-![screenshot](screenshot.jpg)
-````
+Our products and tools empower people to find what they need to develop technology at work or at home. These products include, Stack Overflow for Teams, Stack Overflow Advertising, Collectives™ on Stack Overflow, and Stack Overflow Talent.
+
+## Changelog
+
+### v0.0.0
+
+- yes
