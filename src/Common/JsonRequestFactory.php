@@ -5,9 +5,6 @@ use JMS\Serializer\SerializerInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 
-/**
- * Абстракция для десериализации тела запроса JSON -> DTO
- */
 final class JsonRequestFactory
 {
     /**
@@ -21,7 +18,6 @@ final class JsonRequestFactory
     private $serializer;
 
     /**
-     * JsonRequestFactory constructor.
      * @param RequestStack $requestStack
      * @param SerializerInterface $serializer
      */
@@ -32,9 +28,6 @@ final class JsonRequestFactory
     }
 
     /**
-     * Десериализует и возвращает объект переданного класса из тела запроса.
-     * В случае неуспеха бросает BadRequestHttpException
-     *
      * @param string $className
      * @throws BadRequestHttpException
      * @return object
@@ -45,9 +38,6 @@ final class JsonRequestFactory
     }
 
     /**
-     * Десериализует и возвращает массив объектов переданного класса из тела запроса.
-     * В случае неуспеха бросает BadRequestHttpException
-     *
      * @param string $className
      * @throws BadRequestHttpException
      * @return \stdClass[]
@@ -59,8 +49,6 @@ final class JsonRequestFactory
     }
 
     /**
-     * Десериализует тело запроса
-     *
      * @param string $formatDescription
      * @throws BadRequestHttpException
      * @return mixed
@@ -79,8 +67,6 @@ final class JsonRequestFactory
     }
 
     /**
-     * Десериализует GET-параметры в объект
-     *
      * @param string $className
      * @return object
      */
